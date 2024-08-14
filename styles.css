@@ -1,0 +1,93 @@
+body {
+  
+  padding : 0;
+  margin : 0;
+  background-color : #edede9;
+  font-family : sans-serif;
+}
+header {
+  background-color : #d5bdaf;
+  margin : 0;
+  height : 50px;
+  display : flex;
+  width : 100%;
+  align-items : center;
+  justify-content: space-between;
+  border-bottom : 5px solid #e3d5ca;
+  text-align : center;
+  position: fixed;
+  top : 0;
+}
+header > img {
+  width : 50px;
+}
+.refi{
+  height : 35px;
+  padding-right : 10px;
+}
+header > h1 {
+  font-size : 25px;
+  
+}
+figure[id="img-div"]{
+  
+  display : flex;
+  flex-flow : column;
+  text-align : center;
+  background-color : #d5bdaf;
+  margin : auto;
+  
+  width : 95%;
+  padding-bottom : 5px;
+  max-width : 700px;
+  min-width : 300px;
+  font-size : 12px;
+  border-radius : 10px;
+  
+}
+figure > img {
+  width : 100%;
+  max-width : 100%;
+  height : auto;
+  padding : 10px;
+  
+  box-sizing: border-box;
+  
+}
+.mainb {
+  
+  background-color : #d6ccc2;
+  width : 80%;
+  min-width : 320px;
+  margin : auto ;
+  margin-top : 80px;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  border-radius : 10px;
+  max-width : 720px;
+}
+p {
+  padding : 20px;
+  text-justify: inter-word;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.refer label {
+  display : flex;
+  flex-flow : column;
+  text-align : center;
+  background-color : #d5bdaf;
+  margin : auto;
+  
+  width : 95%;
+  padding : 5px;
+  max-width : 700px;
+  min-width : 300px;
+  font-size : 12px;
+  border-radius : 10px;
+  
+}
+a {
+  color : black;
+  text-decoration : none;
+}
